@@ -86,6 +86,12 @@
           },
           "overrides": []
         },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
         "id": 1,
         "options": {
           "legend": {
@@ -106,13 +112,30 @@
             "datasource": {
               "type": "prometheus",
               "uid": "den0xor8wju9sd"
-            }
+            },
+            "editorMode": "code",
+            "expr": "machine_cpu_cores",
+            "legendFormat": "__auto",
+            "range": true,
+            "refId": "A"
           }
         ],
-
+        "title": "New panel",
+        "type": "timeseries"
       }
     ],
-
+    "preload": false,
+    "schemaVersion": 41,
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "browser",
     "title": "New dashboard"
   }
 }
