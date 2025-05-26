@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v1beta1",
   "kind": "Dashboard",
   "metadata": {
-    "name": "keycloak-dashboard"
+    "name": "keycloak-dashboard2122222"
   },
   "spec": {
     "annotations": {
